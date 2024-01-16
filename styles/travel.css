@@ -154,11 +154,43 @@ border-radius: 16px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 margin-right: 20px;
 
+}
+/* main part related another style */
+.why{
+    
+    width: 1440px;
+height: 6940px;
+}
+.why-tittle{
+    color: #131318;
 
+text-align: center;
+font-family: Mulish;
+font-size: 2.6rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.why-text{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+margin-left: 398px;
 }
 
+
+
+
+
 /* responsive media */
-@media screen and (max-width:576px){
+@media screen and (max-width:600px){
    
    .banner{
     background-size: cover;
@@ -182,7 +214,16 @@ margin-right: 20px;
     width: 100%;
    
    }
-   
+   .why{
+   align-items: center;
+   height: 100%;
+   width: 100%;
+    
+   }
+   .why-text{
+    margin-left: auto;
+
+   }
   
     
 }
